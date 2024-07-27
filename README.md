@@ -1,2 +1,2 @@
 # Gengine
-A 2d game engine made in c
+A 2d game/graphics engine made in c
