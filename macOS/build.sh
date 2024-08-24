@@ -15,10 +15,10 @@ EXEC="gengine"
 
 # Set compiler options
 CC=clang
-CFLAGS="-Wall -Wextra -std=c99 -I$INCLUDE_DIR -I/opt/homebrew/Cellar/sdl2/2.30.5/include"
+CFLAGS="-Wall -Wextra -std=c99 -I$INCLUDE_DIR -I/opt/homebrew/Cellar/sdl2/2.30.6/include"
 
 # Linker options
-LDFLAGS="-L/opt/homebrew/Cellar/sdl2/2.30.5/lib -lSDL2 -ldl"
+LDFLAGS="-L/opt/homebrew/Cellar/sdl2/2.30.6/lib -lSDL2 -ldl"
 
 # Compile each source file individually                                                                                                                                                                                                       
 for SRC in $SRCS; do                                                                                                                                                                                                                          
