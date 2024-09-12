@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gengine" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/gengine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Gengine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`sdl2-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl2-config --libs`" />
+		</Linker>
+		<Unit filename="include/KHR/khrplatform.h" />
+		<Unit filename="include/glad/glad.h" />
+		<Unit filename="include/linmath.h" />
+		<Unit filename="shaders/default.frag" />
+		<Unit filename="shaders/default.vert" />
+		<Unit filename="src/engine/array_list.h" />
+		<Unit filename="src/engine/array_list/array_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/config.h" />
+		<Unit filename="src/engine/config/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/global.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/global.h" />
+		<Unit filename="src/engine/input.h" />
+		<Unit filename="src/engine/input/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/io/io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/io/io.h" />
+		<Unit filename="src/engine/physics.h" />
+		<Unit filename="src/engine/physics/physics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/physics/physics_internal.h" />
+		<Unit filename="src/engine/render/render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/render/render.h" />
+		<Unit filename="src/engine/render/render_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/render/render_internal.h" />
+		<Unit filename="src/engine/render/render_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/time.h" />
+		<Unit filename="src/engine/time/time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/engine/types.h" />
+		<Unit filename="src/engine/util.h" />
+		<Unit filename="src/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
