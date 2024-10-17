@@ -15,6 +15,9 @@ Same as Linux, make sure you have SDL2 installed.
 You can use the homebrew package manager to install SDL2 like so: "brew install sdl2"
 And with that the script should work fine.
 
+# Note:
+  - Please move the .clangd in the main directory into the src folder not the src/engine just the src/ with the main and glad.c files.
+
 # Windows
 Sorry!, I don't have a windows script for building this engine yet, although i do plan on
 in the future.
