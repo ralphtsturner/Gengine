@@ -2,4 +2,4 @@ CompileFlags: # Tweak the parse settings, example directory given to show format
   Add:
     # - "-I=[folder]"         # old answer
     - "-I/opt/homebrew/Cellar/sdl2/2.30.7/include"            # e.g `-I/usr/include/SDL2`  suggested from @Palmkeep
-    - "-I../../../include"
+    - "-I../include"
