@@ -22,6 +22,8 @@ And with that the script should work fine.
 Sorry!, I don't have a windows script for building this engine yet, although i do plan on
 in the future.
 
+# Extra note:
+
 Please ensure that the build script moved into the main gengine folder for it to work.
 Also ensure that the main.c file where you write the code using the engine is located
 in the main src folder along with glad.c.
