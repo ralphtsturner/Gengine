@@ -19,8 +19,8 @@ And with that the script should work fine.
   - Please move the .clangd in the main directory into the src folder not the src/engine just the src/ with the main and glad.c files.
 
 # Windows
-Sorry!, I don't have a windows script for building this engine yet, although i do plan on
-in the future.
+ITS OFFICIAL!!!! We now have support for windows with our game engine but the fully developed one shown on windows only works on linux and windows for now.
+Please remember to install visual studio and use the native x64 cmd prompt that comes with it to build the bat script on windows.
 
 # Extra note:
 
